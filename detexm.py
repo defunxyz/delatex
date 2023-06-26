@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2019 The N-grams Authors.
+# Copyright (C) The Delatex Authors. All rights reserved.
 import sys, os, multiprocessing
 from common import *
 
