@@ -14,14 +14,5 @@ You should have received a copy of the GNU General Public License along with thi
 
 See [LICENSE](LICENSE) for the full GPLv3 license text.
 
-### COPYRIGHT AND PERMISSION NOTICE
-
-    Notice the copyright above. 
-
-    Permission to use, copy, modify, and distribute this software, code, and/or project for any purpose with 
-    or without fee, without the requirement to contribute, or to release your code modifications publicly is  
-    hereby granted, provided that the above copyright notice and this permission notice appear in all copies. 
-
-    This permission is granted to Shai Machnes and Qruise GmbH Am Hölzersbach 7 D-66113 Saarbrücken for commercial.
 
 
