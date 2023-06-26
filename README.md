@@ -18,4 +18,4 @@ the conversion of  LaTeX files (*.tex) to plain text files.
     if not, write to the Free Software Foundation, Inc., 51 Franklin Street, 
     Fifth Floor, Boston, MA  02110-1301, USA..
 
-See [COPYRIGHT](COPYRIGHT) and [LICENSE](LICENSE) files for more details.
+See [COPYRIGHT](COPYRIGHT.md) and [LICENSE](LICENSE) files for more details.
