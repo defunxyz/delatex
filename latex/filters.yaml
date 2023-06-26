@@ -1,0 +1,92 @@
+# TeX & LaTeX Markup filters
+# Note: "nbr" denotes "newline break"
+# Copyright © 2019 Fisnik Hasani. All rights reserved.
+# Copyright © 2019 Shai Machnes. All rights reserved.
+root: "[tex]"
+
+# Standard LaTeX Environments and Commands
+latex_metadata_to_extract: !!set {
+  'author', 'date', 'dates', 'hypersetup', 'title'
+}
+
+latex_commands_to_extract: !!set {
+  'abstract', 'bf', 'caption', 'chapter', 'em','emph', 'end', 'enquote', 'enspace', 'footnote', 'footnotetext',
+  'href', 'hypersetup', 'item', 'lefthead', 'mbox', 'minipage', 'mintinline', 'normalfont', 'paragraph', 'pubyear',
+  'righthead', 'section', 'spacedallcaps', 'spacedlowsmallcaps', 'subparagraph', 'subsection', 'subsubsection',
+  'task', 'tt', 'text', 'title', 'url', 'verb', 'titlepage', 'it', 'noindent', "textit",
+  "textsl", "textsc", "textbf", "textt", "texttt", "textsf", "textrm", 'keywords', '\/'
+}
+
+latex_references_to_extract: !!set {
+  'cite', 'cref', 'citet', 'citep', 'eqref', 'eqnref', 'eref', 'nocite', 'onlinecite', 'pageref', 'ref', 'shortcite'
+}
+
+latex_line_page_breakers: !!set {
+  '\\', '\\*', 'cleardoublepage', 'clearpage', 'linebreak', 'newline',
+  'newpage', 'nolinebreak', 'nopagebreak', 'pagebreak'
+}
+
+latex_env_to_extract: !!set {
+  'abstract', 'center', 'conjecture', 'corollary', 'definition', 'document',
+  'example', 'figure', 'flushleft', 'flushright', 'frame', 'hypothesis', 'keywords', 'lemma',
+  'letter', 'longtable', 'proof', 'question', 'quotation', 'quote', 'remark', 'savenotes',
+  'solution', 'table', 'threeparttable', 'verbatim', 'verse'
+}
+
+latex_env_to_extract_lists: !!set {
+  'description', 'easylist', 'enumerate', 'inparaenum', 'itemize', 'list',
+  'tablenotes', 'tasks', 'tabu'
+}
+
+# Standard LaTeX Environments and Commands To Discard
+latex_env_to_discard_nbr: !!set {
+  '$', '$$', 'acknowledgments', 'acknowledgements', 'algorithm', 'align', 'alignat', 'aligned', 
+  'array', 'bmatrix', 'cases', 'code', 'comment', 'displaymath', 'dmath', 
+  'empheq', 'eqnarray', 'equation', 'filecontents', 'flalign', 'frame', 'framed', 'gather', 
+  'gathered', 'landscape', 'lstlisting', 'math', 'matrix', 'minipage', 'multicols', 'multline', 
+  'numcases', 'pmatrix', 'proposition', 'references', 'ruledtabular', 'scriptsize', 
+  'smallmatrix', 'split', 'subequation', 'subnumcases', 'tabular', 'tabularx', 
+  'thebibliography', 'thm', 'tikzpicture', 'vmatrix', 'xalignat', 'xxalignat', 'picture',
+  'pspicture'
+}
+
+latex_commands_to_discard_nbr: !!set {
+  '\\', 'acknowledgments', 'acknowledgements', 'activate', 'addcontentsline', 'address', 'addvspace', 'affiliation', 'affil', 
+  'allowdisplaybreaks', 'altaffilmark', 'altaffiltext', 'appendix', 'arraycolsep', 'arrayrulecolor', 'author', 'baselineskip', 
+  'begingroup', 'bibitem', 'bibliography', 'bibliographystyle', 'bigbreak', 'bigskip', 'binoppenalty', 'blindtext', 'bottomrule', 
+  'center', 'centering', 'centerline', 'claim', 'cline', 'cmod', 'columncolor', 'date', 'dates', 'deactivate', 'declarefontfamily', 
+  'declarefontshape', 'declaremathalphabet', 'declaremathoperator', 'declaremathsymbol', 'declarepaireddelimiter', 'declaresymbolfont', 
+  'def', 'definecolor', 'documentclass', 'documentstyle', 'ead', 'edef', 'eject', 'else', 'endclaim', 'endfirsthead', 'endfoot', 'endgroup', 
+  'endhead', 'endlastfoot', 'enlargethispage', 'enskip', 'ensuremath', 'epsfxsize', 'epsscale', 'erf', 'fi', 'fontspec', 'footnotemark', 
+  'footnotesize', 'frenchspacing', 'global', 'hline', 'hoffset', 'hologo', 'hspace', 'huge', 'ifclassoptioncompsoc', 'ifdefined', 
+  'iffalse', 'ifpdf', 'ignorespaces', 'include', 'includegraphics', 'includeonly', 'input', 'interdisplaylinepenalty', 
+  'itshape', 'l', 'large', 'leavevmode', 'left', 'leftskip', 'let', 'lipsum', 'listoffigures', 'listofillustrations', 
+  'listoftables', 'listoftheorems', 'listproperties', 'long', 'lstdefinestyle', 'lstinputlisting', 'lstset', 'makeatletter', 
+  'makeatother', 'maketag', 'mathindent', 'medbreak', 'medskip', 'midrule', 'negmedspace', 'negthinspace', 'newcolumntype', 
+  'newglossaryentry', 'newlength', 'newtheorem', 'nonumber', 'normalbaselineskip', 'normalsize', 'null', 
+  'numberwithin', 'onecolumn', 'pagestyle', 'plotone', 'protect', 'qquad', 'quad', 'relpenalty', 'requirepackage', 'reversemarginpar', 'right', 
+  'rightskip', 'rm', 'scalebox', 'sectionfont', 'setbeamertemplate', 'setmainfont', 'settowidth', 'singlespace', 'smallbreak', 'smallskip', 
+  'smashsetlength', 'specialpapernotice', 'spewfootnotes', 'stepcounter', 'stretch', 'subfloat', 'subnumberinglabel', 
+  'tableofcontents', 'tagform', 'thanks', 'theequation', 'thinspace', 'topmargin', 'toprule', 'twocolumn', 'urlstyle', 'usecolortheme', 
+  'usepackage', 'usetheme', 'verbatiminput', 'vfill', 'vfilll', 'voffset', 'vskip', 'vspace', 'yskip', 'markboth', 'maketitle', 
+  'pagerange', 'renewcommand', 'newcommand', 'providecommand', 'textwidth', 'put', 'epsfbox', 'unitlength', 'institute',
+  'pacs', rtitle', 'rauthor', 'sodtitle', 'sodauthor', 'resizebox'
+}
+
+latex_commands_to_discard_inline: !!set {
+  'amstex', 'bibtex', 'bracr', 'doc', 'email', 'etal', 'hyphenation', 'label', 'latex', 'latexe', 'lstinline', 'lualatex', 'luatex', 
+  'nulldelimiterspace', 'plaintex', 'sepspace', 'slitex', 'small', 'tex', 'textbackslash', 'textsuperscript', 'xelatex', 'xetex'
+}
+
+# IEEEtran
+ieee_meta: !!set {'ieeeauthorblockn', 'ieeeauthorblocka'}
+
+ieee_commands_to_extract: !!set {}
+ieee_commands_to_discard_nbr: !!set {
+  'ieeepeerreviewmaketitle', 'ieeebibitemsep', 'ieeeeqnarraymulticol', 'ieeeeqnarraynumspace', 
+  'ieeeyesnumber', 'ieeenonumber', 'ieeeyessubnumber', 'ieeenosubnumber', 'ieeestrut', 'ieeeeqnarraystrutmode',
+  'ieeeeqnarraystrutsizeadd', 'ieeeaftertitletext', 'ieeeoverridecommandlockouts', 'ieeemembership', 'ieeespecialpapernotice'
+}
+
+ieee_env_to_extract: !!set {}
+ieee_env_to_discard_nbr: !!set {'ieeeeqnarray', 'ieeeeqnarraybox'}
