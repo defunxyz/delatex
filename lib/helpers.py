@@ -1,6 +1,5 @@
 # coding=utf-8
-# Copyright © 2019 Fisnik Hasani. All rights reserved.
-# Copyright © 2019 Shai Machnes. All rights reserved.
+# Copyright © The Delatex Authors. All rights reserved.
 
 # Generic/Built-in Imports
 import enum, re, json, string, yaml, pickle, datetime

@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright (C) The Delatex Authors. All rights reserved.
+# Copyright © The Delatex Authors. All rights reserved.
 
 import multiprocessing
 from common import *

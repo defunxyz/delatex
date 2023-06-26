@@ -1,6 +1,6 @@
 # coding=utf-8
-# Copyright (C) The Delatex Authors. All rights reserved.
-import sys, os, multiprocessing
+# Copyright © The Delatex Authors. All rights reserved.
+import sys, multiprocessing
 from common import *
 
 arxiv_categories = load_json(json_dir / 'arxiv_categories.json')

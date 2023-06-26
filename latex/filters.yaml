@@ -1,7 +1,6 @@
 # TeX & LaTeX Markup filters
 # Note: "nbr" denotes "newline break"
-# Copyright © 2019 Fisnik Hasani. All rights reserved.
-# Copyright © 2019 Shai Machnes. All rights reserved.
+# Copyright © The Delatex Authors. All rights reserved.
 root: "[tex]"
 
 # Standard LaTeX Environments and Commands
