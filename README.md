@@ -1,6 +1,6 @@
 # Delatex 
 
-Delatex is an is an open source project that provides a tool which allows 
+Delatex is an open source project that provides a tool which allows 
 the conversion of  LaTeX files (*.tex) to plain text files.
 
     COPYRIGHT NOTICE:
