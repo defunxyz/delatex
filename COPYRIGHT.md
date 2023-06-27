@@ -2,7 +2,7 @@
 
 This work is an open source project. 
 
-Copyright © 2018 - 2023, Fisnik Hasani, Shai Machnes. 
+Copyright © 2018 - 2023, Fisnik, Shai. 
 
 All rights reserved.
 
