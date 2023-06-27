@@ -8,3 +8,5 @@ Copyright © The Delatex Authors. All rights reserved.
 """
 from .core import LaTeX
 
+# Public Symbols
+__all__ = ["LaTeX"]

@@ -44,8 +44,8 @@ class LaTeX(object):
         """
         text = raw
         text = re.sub(re.compile(r'(?<!\\)%.*', re.MULTILINE), "", text)
-        # text = re.sub(re.compile(r"\@{1,}"), " ", text)
-        # text = re.sub(re.compile(r'(?<!\\)\\ '), " ", text)
+        text = re.sub(re.compile(r"\@{1,}"), " ", text)
+        text = re.sub(re.compile(r'(?<!\\)\\ '), " ", text)
 
         #text = text.replace(r"\be", r"\begin{equation}")
         #text = text.replace(r"\ee", r"\end{equation}")
