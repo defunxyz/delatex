@@ -5,6 +5,7 @@
     hereby granted, provided that the copyright notice (see COPYRIGHT.md) and this permission notice 
     appear in all copies. 
 
-    This permission is granted to Shai Machnes and Qruise GmbH Am Hölzersbach 7 D-66113 Saarbrücken for commercial.
+    This permission is granted to Shai Machnes and Qruise GmbH Am Hölzersbach 7 D-66113 Saarbrücken for 
+    commercial use.
 
 This permission was granted and written upon request from Machnes and Qruise GmbH for use in commercial setting. 
