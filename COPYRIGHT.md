@@ -2,7 +2,7 @@
 
 This work is an open source project. 
 
-Copyright © 2018 - 2023, Fisnik, Shai. 
+Copyright © 2018 - 2023, Fisnik Hasani, Shai Machnes. 
 
 All rights reserved.
 
@@ -14,5 +14,8 @@ You should have received a copy of the GNU General Public License along with thi
 
 See [LICENSE](LICENSE) for the full GPLv3 license text.
 
+---
+
+For Exceptions, please refer to [NOTICE](NOTICE.md).
 
 
