@@ -16,6 +16,6 @@ See [LICENSE](LICENSE) for the full GPLv3 license text.
 
 ---
 
-For Exceptions, please refer to [NOTICE](NOTICE).
+For Exceptions, please refer to [NOTICE](NOTICE.md).
 
 
